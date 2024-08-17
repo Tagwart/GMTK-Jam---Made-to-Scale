@@ -4,8 +4,9 @@ var input_direction:Vector2 = Vector2.ZERO
 var holding_jump:bool = false
 var jump_just_released:bool = false
 var jump_countdown:int = 0
+var gravity_multiplier:float = 1.2
 
-const MAX_SPEED:float = 30000.0
+const MAX_SPEED:float = 20000.0
 const ACCELERATION:float = 5000.0
 const JUMP_FORCE:float = 8000.0
 const JUMP_FRAMES:int = 4
@@ -27,7 +28,7 @@ func _unhandled_input(event: InputEvent) -> void:
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
-		velocity += get_gravity() * delta
+		velocity += get_gravity() * gravity_multiplier * delta
 	else: 
 		jump_countdown = JUMP_FRAMES
 	

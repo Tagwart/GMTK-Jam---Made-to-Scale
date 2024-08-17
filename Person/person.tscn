@@ -8,6 +8,7 @@ radius = 15.0
 height = 64.0
 
 [node name="Person" type="CharacterBody2D"]
+collision_mask = 2
 script = ExtResource("1_p60hi")
 
 [node name="PersonSprite" type="Sprite2D" parent="."]
