@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8wqxasm8cxlw"]
+
+[ext_resource type="Script" path="res://checkpoint.gd" id="1_688kl"]
+[ext_resource type="Texture2D" uid="uid://d4b8yh3uf56oa" path="res://Levels/Checkpoint/checkpoint_sheet.png" id="2_x3id5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ww4ly"]
+size = Vector2(32, 32)
+
+[node name="Checkpoint" type="Node2D"]
+script = ExtResource("1_688kl")
+
+[node name="FlagSprite" type="Sprite2D" parent="."]
+position = Vector2(0, -16)
+texture = ExtResource("2_x3id5")
+hframes = 2
+
+[node name="FlagArea" type="Area2D" parent="."]
+position = Vector2(0, -16)
+collision_layer = 4
+
+[node name="FlagShape" type="CollisionShape2D" parent="FlagArea"]
+shape = SubResource("RectangleShape2D_ww4ly")
+
+[connection signal="body_entered" from="FlagArea" to="." method="_on_flag_area_body_entered"]

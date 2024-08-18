@@ -12,6 +12,9 @@ const JUMP_FORCE:float = 8000.0
 const JUMP_FRAMES:int = 4
 
 
+func _ready() -> void:
+	Global.spawn_point = global_position
+
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and not event.is_echo():
 		input_direction = Input.get_vector("move_left", "move_right", "move_up", "move_down")
@@ -44,3 +47,7 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	jump_just_released = false
+
+
+func _on_out_of_bounds() -> void:
+	global_position = Global.spawn_point

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://5vh702uem37o"]
+
+[ext_resource type="Script" path="res://level_bounds.gd" id="1_6evrw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yvqj5"]
+size = Vector2(1576, 808)
+
+[node name="LevelBounds" type="Node2D"]
+script = ExtResource("1_6evrw")
+
+[node name="BoundsArea" type="Area2D" parent="."]
+collision_layer = 8
+
+[node name="BoundsShape" type="CollisionShape2D" parent="BoundsArea"]
+shape = SubResource("RectangleShape2D_yvqj5")
+
+[connection signal="body_exited" from="BoundsArea" to="." method="_on_bounds_area_body_exited"]

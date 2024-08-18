@@ -1,5 +1,6 @@
-[gd_scene load_steps=3 format=3 uid="uid://cknq16lr8wn0b"]
+[gd_scene load_steps=4 format=3 uid="uid://cknq16lr8wn0b"]
 
+[ext_resource type="Script" path="res://Levels/Platforms/test_platform.gd" id="1_l4257"]
 [ext_resource type="Texture2D" uid="uid://dw2spy8g1g7mu" path="res://Levels/Platforms/test_platform.png" id="1_tauuu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2tcly"]
@@ -7,6 +8,7 @@ size = Vector2(128, 30)
 
 [node name="TestPlatform" type="StaticBody2D"]
 collision_layer = 2
+script = ExtResource("1_l4257")
 
 [node name="PlatformShape" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_2tcly")
