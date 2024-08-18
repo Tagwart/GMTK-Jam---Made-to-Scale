@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2ghddfu3wijf"]
+
+[ext_resource type="Script" path="res://Resizable/static_resizable.gd" id="1_acyoc"]
+[ext_resource type="Texture2D" uid="uid://cmiufsnquu5la" path="res://Player/player_placeholder.png" id="2_w0wp4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_efnp4"]
+size = Vector2(30, 64)
+
+[node name="StaticResizable" type="StaticBody2D"]
+collision_layer = 2
+script = ExtResource("1_acyoc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_w0wp4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_efnp4")

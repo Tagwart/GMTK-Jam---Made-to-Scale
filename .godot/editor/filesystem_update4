@@ -1,0 +1,7 @@
+res://Player/player.tscn
+res://Assets/test_level.tscn
+res://Game/game.tscn
+res://Assets/Platforms/platform.tscn
+res://Levels/level_1.tscn
+res://Resizable/static_resizable.tscn
+res://Resizable/static_resizable.gd
