@@ -1,0 +1,41 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1724171235
+checkpoint.gd::GDScript::-1::1724115180::0::1::::<>Node2D<>::
+export_presets.cfg::TextFile::-1::1724169499::0::1::::<><>::
+icon.svg::CompressedTexture2D::1843420370488050932::1724114947::1724115183::1::::<><>::
+level_bounds.gd::GDScript::-1::1724115180::0::1::::<>Node2D<>::
+README.md::TextFile::-1::1724114946::0::1::::<><>::
+thumbnail.png::CompressedTexture2D::6131071212537583777::1724171235::1724171486::1::::<><>::
+::res://Autoloads/::1724168130
+global.gd::GDScript::-1::1724115180::0::1::::<>Node<>::
+global.tscn::PackedScene::120927140295479806::1724115180::0::1::::<><>::res://Autoloads/global.gd
+Made To Scale Main Theme.wav::AudioStreamWAV::4848586295751358490::1724167911::1724168129::1::::<><>::
+::res://build/::1724170002
+index.apple-touch-icon.png::CompressedTexture2D::7217981951926662795::1724169944::1724169961::1::::<><>::
+index.icon.png::CompressedTexture2D::4316595475374220691::1724169944::1724169961::1::::<><>::
+index.png::CompressedTexture2D::2217470334320093293::1724169944::1724169961::1::::<><>::
+::res://Levels/::1724171142
+level_bounds.tscn::PackedScene::2008894298415181006::1724116577::0::1::::<><>::res://level_bounds.gd
+test_level.tscn::PackedScene::3487221809912880489::1724171142::0::1::::<><>::uid://d3xvv4g43jpda::::res://Person/person.tscn<>res://Levels/Tile Sets/plain_tiles.tscn<>res://level_bounds.gd<>uid://d32dkeewaogl7::::res://Levels/Platforms/advanced_platform.tscn<>uid://b8wqxasm8cxlw::::res://Levels/Checkpoint/checkpoint.tscn<>uid://dkrt815wkfdi7::::res://Levels/Doors/door.tscn<>uid://rvnoxipckjo3::::res://Levels/Doors/switch.tscn<>uid://cbcxrjewabejq::::res://Autoloads/Made To Scale Main Theme.wav
+::res://Levels/Checkpoint/::1724171143
+checkpoint.tscn::PackedScene::4749081407877470088::1724171143::0::1::::<><>::res://checkpoint.gd<>uid://d4b8yh3uf56oa::::res://Levels/Checkpoint/checkpoint_sheet.png
+checkpoint_sheet.png::CompressedTexture2D::9198849825985893144::1724115180::1724115183::1::::<><>::
+::res://Levels/Doors/::1724171145
+door.gd::GDScript::-1::1724124286::0::1::::<>Node2D<>::
+door.tscn::PackedScene::7897458876304446788::1724171144::0::1::::<><>::res://Levels/Doors/door.gd<>uid://dw2spy8g1g7mu::::res://Levels/Platforms/test_platform.png
+switch.gd::GDScript::-1::1724120740::0::1::::<>Area2D<>::
+switch.tscn::PackedScene::1237377817782535020::1724171145::0::1::::<><>::res://Levels/Doors/switch.gd<>uid://ch27eoane7jky::::res://Levels/Tile Sets/47_tilset.png
+::res://Levels/Platforms/::1724171143
+advanced_platform.gd::GDScript::-1::1724120065::0::1::::<>Node2D<>::
+advanced_platform.tscn::PackedScene::9180488098493927390::1724171143::0::1::::<><>::uid://dw2spy8g1g7mu::::res://Levels/Platforms/test_platform.png<>res://Levels/Platforms/advanced_platform.gd
+test_platform.gd::GDScript::-1::1724115108::0::1::::<>StaticBody2D<>::
+test_platform.png::CompressedTexture2D::8760275815100579068::1724115108::1724115183::1::::<><>::
+test_platform.tscn::PackedScene::5502586263129178663::1724115108::0::1::::<><>::res://Levels/Platforms/test_platform.gd<>uid://dw2spy8g1g7mu::::res://Levels/Platforms/test_platform.png
+::res://Levels/Tile Sets/::1724115183
+47_tilset.png::CompressedTexture2D::5321852295080365552::1724115108::1724115183::1::::<><>::
+basic_set.png::CompressedTexture2D::4199766163531292361::1724115108::1724115183::1::::<><>::
+plain_tiles.tscn::PackedScene::-1::1724115180::0::1::::<><>::
+::res://Person/::1724124402
+person.gd::GDScript::-1::1724124402::0::1::::<>CharacterBody2D<>::
+person.tscn::PackedScene::9173344453609079882::1724115108::0::1::::<><>::uid://cmiufsnquu5la::::res://Person/person_placeholder.png<>res://Person/person.gd
+person_placeholder.png::CompressedTexture2D::5632846748157197326::1724115108::1724115183::1::::<><>::

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://rvnoxipckjo3"]
+
+[ext_resource type="Script" path="res://area_2d.gd" id="1_d8u1t"]
+[ext_resource type="Texture2D" uid="uid://ch27eoane7jky" path="res://Levels/Tile Sets/47_tilset.png" id="2_utj8u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q0t0m"]
+size = Vector2(32, 8)
+
+[node name="Switch" type="Area2D"]
+modulate = Color(0, 1, 0, 1)
+script = ExtResource("1_d8u1t")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -4)
+scale = Vector2(1, 0.25)
+texture = ExtResource("2_utj8u")
+region_enabled = true
+region_rect = Rect2(0, 96, 32, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_q0t0m")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
+[connection signal="ready" from="." to="." method="_on_ready"]

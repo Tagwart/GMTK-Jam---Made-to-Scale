@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cbcxrjewabejq"
+path="res://.godot/imported/Made To Scale Main Theme.wav-76ba5dcae28eb6746b8fadf698c13715.sample"
+
+[deps]
+
+source_file="res://Autoloads/Made To Scale Main Theme.wav"
+dest_files=["res://.godot/imported/Made To Scale Main Theme.wav-76ba5dcae28eb6746b8fadf698c13715.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

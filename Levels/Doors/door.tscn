@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkrt815wkfdi7"]
+
+[ext_resource type="Script" path="res://Levels/Doors/door.gd" id="1_jrugu"]
+[ext_resource type="Texture2D" uid="uid://dw2spy8g1g7mu" path="res://Levels/Platforms/test_platform.png" id="2_7oynr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lchjr"]
+size = Vector2(32, 128)
+
+[node name="Node2D" type="Node2D" groups=["doors"]]
+modulate = Color(0, 1, 0, 1)
+script = ExtResource("1_jrugu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(16, 0)
+collision_layer = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(0, -64)
+rotation = -1.57079
+texture = ExtResource("2_7oynr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, -64)
+shape = SubResource("RectangleShape2D_lchjr")

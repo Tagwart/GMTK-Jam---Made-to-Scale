@@ -25,10 +25,13 @@ func _unhandled_input(event: InputEvent) -> void:
 			jump_just_released = true
 			holding_jump = false
 	
-	
 
 
 func _physics_process(delta: float) -> void:
+	# Lets the player respawn manually
+	if Input.is_action_just_pressed("respawn"):
+		global_position = Global.spawn_point
+		
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * gravity_multiplier * delta

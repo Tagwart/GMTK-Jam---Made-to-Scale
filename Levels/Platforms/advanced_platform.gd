@@ -2,9 +2,9 @@ extends Node2D
 
 @export_range(0.0, 5.0) var grow_x_speed:float = 1.0
 @export_range(0.0, 5.0) var grow_y_speed:float = 1.0
-@export_range(1.0, 10.0) var big_target:float = 1.0
-@export_range(0.5, 5.0) var small_target:float = 0.5
-var big:bool = true
+@export_range(0.1, 10.0) var big_target:float = 1.0
+@export_range(0.1, 10.0) var small_target:float = 0.5
+@export var big:bool = true
 var grow_rate:float = 2.0
 var big_scale:Vector2 = Vector2(1.0, 1.0)
 var small_scale:Vector2 = Vector2(0.5, 0.5)

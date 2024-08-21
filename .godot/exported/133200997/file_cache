@@ -1,0 +1,10 @@
+res://Autoloads/global.tscn::ff102783535aae1146eee28e47bd21d0::1724115180::res://.godot/exported/133200997/export-9de68d303f8bcd235f71cf02e8e087f7-global.scn
+res://Levels/Checkpoint/checkpoint.tscn::37f6c9da764faa1ecd58d8d6b283312f::1724168313::res://.godot/exported/133200997/export-f7ad7f9b66a826bb048e2d90fe696a23-checkpoint.scn
+res://Levels/Doors/door.tscn::de6cd5a07b9292fd9c73eb6679f6df30::1724168318::res://.godot/exported/133200997/export-0b7ec3867842a6ccfdf5bd7e3fa3a049-door.scn
+res://Levels/Doors/switch.tscn::914acbe6feeaf3e668f7674072787944::1724168321::res://.godot/exported/133200997/export-bd5939322bde3567281f0b145d7d85cf-switch.scn
+res://Levels/Platforms/advanced_platform.tscn::744b2ed6c900e9d6ab4044468db57bf3::1724168315::res://.godot/exported/133200997/export-36bb7dab40627480c2f85a87b934f616-advanced_platform.scn
+res://Levels/Platforms/test_platform.tscn::69792812ddd176679c21cfad95c340a8::1724115108::res://.godot/exported/133200997/export-91794a47c5a4cc537c9a767e45597487-test_platform.scn
+res://Levels/Tile Sets/plain_tiles.tscn::99d0c5d091da08f65772a1b07bae5ef6::1724115180::res://.godot/exported/133200997/export-db3fe5da822cf4b306e5ea6d67b42e47-plain_tiles.scn
+res://Levels/level_bounds.tscn::1ebe3e62fb6277994384868edbba9156::1724116577::res://.godot/exported/133200997/export-cfec02d4e3aef35997a32a1b058d4ad9-level_bounds.scn
+res://Levels/test_level.tscn::d59e2f549808cfaed13a8c4f7a0844e5::1724168311::res://.godot/exported/133200997/export-cdfc72a2c7de608a57721ef95d29853e-test_level.scn
+res://Person/person.tscn::7dcf2401c36a1a19fba996718737f382::1724115108::res://.godot/exported/133200997/export-c7ec6384b5297dc8f9f90533c7727b93-person.scn

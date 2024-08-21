@@ -1,0 +1,7 @@
+res://Levels/test_level.tscn
+res://Levels/Checkpoint/checkpoint.tscn
+res://Levels/Platforms/advanced_platform.tscn
+res://Levels/Doors/door.tscn
+res://Levels/Doors/switch.tscn
+res://Levels/Doors/door.gd
+res://Person/person.gd
